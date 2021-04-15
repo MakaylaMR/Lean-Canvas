@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Roboto+Condensed:wght@700&display=swap');
+
+/*heading*/
+h1,
+h2 {
+  font-family: 'Roboto Condensed', sans-serif;
+  border-bottom: 2px solid black;
+}
+
+/*paragraph*/
+p {
+  font-family: 'Cabin', sans-serif;
+}
+
+body {
+  display: grid;
+  justify-self: center;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-template-areas: "title title title title title title"
+    "problem solution unique unique unfair customer"
+    "problem key unique unique channel customer"
+    "cost cost cost rev rev rev";
+  border: 2px solid black;
+  padding: 2rem;
+}
+
+div {
+  border: 1px solid black;
+  padding: 1rem;
+}
+
+.title {
+  grid-area: title;
+  justify-self: center;
+}
+
+.problem {
+  grid-area: problem;
+}
+
+.solution {
+  grid-area: solution;
+}
+
+.key {
+  grid-area: key;
+}
+
+.unique {
+  grid-area: unique;
+}
+
+.unfair {
+  grid-area: unfair;
+}
+
+.channel {
+  grid-area: channel;
+}
+
+.customer {
+  grid-area: customer;
+}
+
+.cost {
+  grid-area: cost;
+}
+
+.rev {
+  grid-area: rev;
+}

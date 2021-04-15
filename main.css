@@ -2,7 +2,8 @@
 
 /*heading*/
 h1,
-h2 {
+h2,
+h3 {
   font-family: 'Roboto Condensed', sans-serif;
   border-bottom: 2px solid black;
 }
@@ -10,6 +11,18 @@ h2 {
 /*paragraph*/
 p {
   font-family: 'Cabin', sans-serif;
+}
+
+.cust {
+  background-color: #FFCBA4;
+}
+
+.user {
+  background-color: #89CFF0;
+}
+
+.me {
+  background-color: #CAE7C1;
 }
 
 body {
